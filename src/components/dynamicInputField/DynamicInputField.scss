@@ -1,0 +1,92 @@
+.main {
+  background-color: #b98efa;
+  padding: 1rem;
+  text-align: left;
+
+  label {
+    background-color: none;
+    color: #333;
+    font-family: monospace;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: none;
+    font-weight: bold;
+  }
+  input {
+    background-color: #efefef;
+    color: #333;
+    font-family: monospace;
+    font-size: 1rem;
+    padding-left: 1rem;
+    border: 1px solid #333;
+    border-radius: 0.25rem;
+  }
+}
+
+.secondary {
+  background-color: #b98efa;
+  padding: 1rem;
+  text-align: left;
+
+  label {
+    background-color: none;
+    color: #efefef;
+    font-family: monospace;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: none;
+    font-weight: bold;
+  }
+  input {
+    background-color: #333;
+    color: #efefef;
+    font-family: monospace;
+    font-size: 1rem;
+    padding-left: 1rem;
+    border: 1px solid #efefef;
+    border-radius: 0.25rem;
+  }
+}
+
+.disabled {
+  background-color: #b98efa;
+  padding: 1rem;
+  text-align: left;
+  display: block;
+
+  label {
+    background-color: grey;
+    color: darkgray;
+    font-family: monospace;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border: none;
+    font-weight: bold;
+  }
+  input {
+    background-color: grey;
+    color: darkgrey;
+    font-family: monospace;
+    font-size: 1rem;
+    padding-left: 1rem;
+    border: 1px solid #333;
+    border-radius: 0.25rem;
+  }
+  .nonStringLabel {
+    background-color: aqua;
+  }
+}
+
+.error {
+  border-color: red;
+  background-color: pink;
+}
+.errorMsg {
+  color: pink;
+  padding-left: 1rem;
+  span {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: pink;
+  }
+}
